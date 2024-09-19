@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Landig Page</title>
+    <style>
+        * {
+            margin: auto;
+            background-color: rgb(175, 203, 207);
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        /*navbar*/
+        .header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            height: 100px;
+            align-items: center;
+
+        }
+
+        .logo {
+            display: flex;
+            /* width: 180px; */
+        }
+
+        .logopic {
+            color: deepskyblue;
+
+        }
+
+        .logoname {
+            font-size: 40px;
+
+        }
+
+        ul li {
+            list-style-type: none;
+            display: inline;
+            font-size: 16px;
+            padding: 10px;
+
+        }
+
+        button {
+            border: 3px solid deepskyblue;
+            background-color: transparent;
+            height: 40px;
+            width: 140px;
+            font-size: 18px;
+            font-weight: bold;
+            color: deepskyblue;
+
+
+        }
+
+        /*main body*/
+        .main {
+            width: 600px;
+            height: 600px;
+            align-content: center;
+            text-align: center;
+        }
+
+        .para2 {
+            font-size: 58px;
+            font-weight: bold;
+            width: 600px;
+        }
+
+        .para3 {
+            width: 460px;
+            font-size: 19px;
+            color: gray;
+        }
+
+        .para4 {
+            display: flex;
+            height: 100px;
+            width: 450px;
+        }
+
+        /*para4 part 1*/
+        .text {
+            font-size: 16px;
+            color: gray;
+            background-color: white;
+            width: 230px;
+            height: 48px;
+            border-radius: 2px;
+            border: none;
+
+        }
+
+        /*para4 part 2*/
+        .buttonbox {
+            font-size: 15px;
+            font-weight: bold;
+            background-color: rgb(255, 81, 0);
+            color: white;
+            width: 185px;
+            height: 50px;
+            border-radius: 2px;
+            border: none;
+        }
+
+        .para5 {
+            color: gray;
+            font-size: 17px;
+        }
+
+
+        /*footer*/
+
+        .footer {
+            width: 100%;
+            display: flex;
+
+            height: 150px;
+        }
+
+        /*icon paragraph*/
+        .footer p {
+            color: gray;
+            font-size: 17px;
+        }
+
+
+        .icon1a,
+        .icon2a,
+        .icon3a {
+            width: 70px;
+        }
+
+
+        .icon1,
+        .icon2,
+        .icon3 {
+            display: flex;
+            width: 350px;
+        }
+
+        .footer i {
+            color: deepskyblue;
+        }
+
+        /*responsive  screen size 860px*/
+        @media only screen and (max-width:860px) {
+            .list {
+                display: none;
+            }
+
+
+
+            .icon1,
+            .icon2,
+            .icon3 {
+                text-align: center;
+
+            }
+
+            footer h2 {
+                font-size: 15px;
+            }
+   }
+
+     /*responsive  screen size 425px*/
+        @media only screen and (max-width:425px) {
+            .header {
+           
+                padding-left: 20px;
+ }
+
+            .logo {
+                padding-right: 30px;
+            }
+
+            .footer {
+                flex-direction: column;
+                padding-left: 20%;
+            }
+
+            .footer p {
+
+                font-size: 19px;
+            }
+ }
+  /*responsive  screen size 320px*/
+  @media only screen and (max-width:320px) {
+
+    .footer {
+            
+                padding-left: 30%;
+            }
+
+
+  }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <!--navbar-->
+        <!--first div-->
+        <div class="logo">
+            <div class="logopic"><i class='bx bxs-layer' style="font-size:36px"></i></div>
+            <div class="logoname">Shades</div>
+        </div>
+        <!--second div-->
+        <div class="list">
+            <ul>
+                <li>Free Landing Pages</li>
+                <li>Features</li>
+                <li>Services</li>
+                <li>Pricing</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <!--third button-->
+        <button>Get started</button>
+    </div>
+
+    <div class="main">
+        <!--main body-->
+        <!--1st div heading-->
+        <div class="para1">PRESENT YOUR SERVICE</div>
+        <br />
+        <br />
+
+        <!--2nd div heading-->
+        <div class="para2">Make landing page fast and easily</div>
+        <br />
+
+        <!--3rd div heading-->
+        <div class="para3">Create custom landing pages with shades that convert more visitors than any website -no
+            coding required</div>
+
+        <!--4th div 2 buttons-->
+        <div class="para4">
+            <input type="text" placeholder="   Enter your email" class="text" />
+            <input type="button" value="Subscribe" class="buttonbox" />
+        </div>
+
+        <!--5th div heading-->
+        <div class="para5">Trusted by over 50,000+ customers </div>
+    </div>
+
+    <div class="footer">
+        <!--footer-->
+        <!--1st icon-->
+        <div class="icon1">
+            <div class="icon1a"><i class='bx bxs-pencil' style="font-size:44px"></i></div>
+            <div class="icon1b">
+                <h2>Easy to use</h2>
+                <p>Editing sand customizing Essensial Landing is easy and fast</p>
+            </div>
+        </div>
+        <br />
+        <br />
+
+        <!--2nd icon-->
+        <div class="icon2">
+            <div class="icon2a"><i class='bx bx-layer' style="font-size:44px"></i></div>
+            <div class="icon2b">
+                <h2>100% Responsive</h2>
+                <p>Editing sand customizing Essensial Landing is easy and fast</p>
+            </div>
+        </div>
+        <br />
+        <br />
+
+        <!--3rd icon-->
+        <div class="icon3">
+            <div class="icon3a"><i class='bx bx-devices' style="font-size:44px"></i></div>
+            <div class="icon3b">
+                <h2>50+ new pages</h2>
+                <p>Editing sand customizing Essensial Landing is easy and fast</p>
+            </div>
+        </div>
+        <br />
+        <br />
+    </div>
+</body>
+
+</html>
